@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">P9 Inventory App Stage2</string>
+
+    <!-- CATALOG ACTIVITY -->
+
+    <!-- Menu -->
+    <!-- Label for overflow menu option that inserts fake book data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Delete all Books Confirmation -->
+    <!-- Dialog message to ask the user to confirm deleting the entire book inventory list [CHAR LIMIT=NONE] -->
+    <string name="action_delete_all_entries">Delete All Books?</string>
+    <!-- Message to tell the user that the book list is already empty when he tries to delete an empty inventory [CHAR LIMIT=20] -->
+    <string name="book_list_is_empty">The book inventory list is already empty!</string>
+
+    <!-- Delete all Books Response Messages -->
+    <!-- Toast message in editor when current book was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_all_books_successful">All books deleted</string>
+    <!-- Toast message in editor when current book has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_all_books_failed">Error with deleting all books</string>
+
+    <!-- Empty View -->
+    <!-- Title text for the empty view[CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">The books inventory is empty...</string>
+    <!-- Subtitle text for the empty view that prompts the user to add a book [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a book!</string>
+
+    <!-- EDITOR ACTIVITY -->
+
+    <!-- Editor Activity Form App Bar Titles -->
+    <!-- Title for the editor activity to add a new book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_book">Add a Book</string>
+    <!-- Title for the editor activity to edit an existing book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_book">Edit Book</string>
+
+    <!-- Editor Activity Delete and Save Menu Options -->
+    <!-- Label for editor menu option to save book and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+    <!-- Label for editor overflow menu option that deletes the current book [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Editor Activity Form Category Titles -->
+    <!-- Label for Book Info category of book attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_book">Book Info</string>
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier">Supplier Info</string>
+
+    <!-- EditText Hints -->
+    <!-- Text hint for title field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_title">Title</string>
+    <!-- Text hint for author field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_author">Author</string>
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_price">Price</string>
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_quantity">Quantity</string>
+    <!-- Text hint for quantity increment/decrement amount field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_quantity_inc_dec_amount">Dec/Inc By</string>
+    <!-- Text hint for supplier name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_supplier_name">Supplier Name</string>
+    <!-- Text hint for supplier phone field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_supplier_phone">Supplier Phone</string>
+
+    <!-- Save new/updated book details error messages -->
+    <!-- Error message for trying to save an empty editor activity form [CHAR LIMIT=30] -->
+    <string name="save_error_all_fields_blank">Pleas fill in the blank fields</string>
+    <!-- Error message for trying to save an editor activity form with empty title field [CHAR LIMIT=30] -->
+    <string name="save_error_title_field_blank">Please fill in the book\'s title</string>
+    <!-- Error message for trying to save an editor activity form with empty author field [CHAR LIMIT=30] -->
+    <string name="save_error_author_field_blank">Please fill in the book\'s author name</string>
+    <!-- Error message for trying to save an editor activity form with empty price field [CHAR LIMIT=30] -->
+    <string name="save_error_price_field_blank">Please fill in the book\'s price</string>
+    <!-- Error message for trying to save an editor activity form with invalid value in price field [CHAR LIMIT=30] -->
+    <string name="save_error_price_field_invalid">Please fill in a valid (bigger than 0) value for the book\'s price</string>
+    <!-- Error message for trying to save an editor activity form with empty quantity field [CHAR LIMIT=30] -->
+    <string name="save_error_quantity_field_blank">Please fill in the book\'s quantity available in stock</string>
+    <!-- Error message for trying to save an editor activity form with invalid value in quantity field [CHAR LIMIT=30] -->
+    <string name="save_error_quantity_field_invalid">Please fill in a valid (positive) value for the book\'s quantity available in stock</string>
+    <!-- Error message for trying to save an editor activity form with empty supplier name field [CHAR LIMIT=30] -->
+    <string name="save_error_supplier_name_field_blank">Please fill in the book\'s supplier name</string>
+    <!-- Error message for trying to save an editor activity form with empty supplier phone field [CHAR LIMIT=30] -->
+    <string name="save_error_supplier_phone_field_blank">Please fill in the book\'s supplier phone number</string>
+
+    <!-- Decrement of existing book quantity error messages -->
+    <!-- Error message for trying to decrease the quantity value in an amount bigger than the quantity [CHAR LIMIT=30] -->
+    <string name="decrement_error_dec_amount_bigger_than_quantity">You don\'t have enough books in stock to sell this amount! The max amount of books you can sell is:\u0020 </string>
+    <!-- Error message for trying to decrease a 0 quantity value [CHAR LIMIT=30] -->
+    <string name="decrement_error_quantity_is_zero">This book is OUT OF STOCK! You cannot sell it! Order from the supplier!</string>
+
+    <!-- Save New Book Response Messages -->
+    <!-- Toast message in editor when new book has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_book_successful">Book saved</string>
+    <!-- Toast message in editor when new book has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_book_failed">Error with saving book</string>
+
+    <!-- Save Existing Book Changes Response Messages -->
+    <!-- Toast message in editor when current book was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_book_successful">Book updated</string>
+    <!-- Toast message in editor when current book has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_book_failed">Error with updating book</string>
+
+    <!-- Quit Editor Without Saving -->
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+    <!-- Dialog button text for the option to keep editing the current book [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Delete Book Response Messages -->
+    <!-- Toast message in editor when current book was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_successful">Book deleted</string>
+    <!-- Toast message in editor when current book has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_failed">Error with deleting book</string>
+
+    <!-- Delete Book Confirmation -->
+    <!-- Dialog message to ask the user to confirm deleting the current book [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this book?</string>
+    <!-- Dialog button text for the option to confirm deleting the current book [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+    <!-- Dialog button text for the option to cancel deletion of the current book [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+</resources>
